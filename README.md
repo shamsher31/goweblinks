@@ -3,7 +3,7 @@
 [![Godoc](http://img.shields.io/badge/godoc-reference-blue.svg?style=flat)](https://godoc.org/github.com/shamsher31/goweblinks)
 [![Build Status](https://travis-ci.org/shamsher31/goweblinks.svg)](https://travis-ci.org/shamsher31/goweblinks)
 
-This package will give you list of web links from given webpage.
+This will give you list of web links from given webpage.
 
 ### How to install
 ```go
@@ -61,13 +61,13 @@ func getWebPage(uri string) {
 
 Run this through command line, notice providing website url
 
-```
+```go
 go run links.go http://google.com
 
 ```
 You will get the following output
 
-```
+```go
 http://www.goole.com/
 http://www.goole.com/about/
 http://www.goole.com/schools-and-education/
@@ -86,7 +86,8 @@ http://www.goole.com/privacy/
 ```
 
 ### Why
-
+This package will be useful when you are writing web crawler application and you want to fetch
+all the links from the provided website url.
 
 ### License
 MIT © [Shamsher Ansari](https://github.com/shamsher31)
