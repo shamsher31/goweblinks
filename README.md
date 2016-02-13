@@ -2,8 +2,9 @@
 
 [![Godoc](http://img.shields.io/badge/godoc-reference-blue.svg?style=flat)](https://godoc.org/github.com/shamsher31/goweblinks)
 [![Build Status](https://travis-ci.org/shamsher31/goweblinks.svg)](https://travis-ci.org/shamsher31/goweblinks)
+[![MIT License](http://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](license)
 
-This will give you list of web links from given webpage.
+This will give you list of web links from given website url.
 
 ### How to install
 ```go
@@ -67,7 +68,7 @@ go run links.go http://google.com
 ```
 You will get the following output
 
-```go
+```html
 http://www.goole.com/
 http://www.goole.com/about/
 http://www.goole.com/schools-and-education/
