@@ -2,6 +2,7 @@
 
 [![Godoc](http://img.shields.io/badge/godoc-reference-blue.svg?style=flat)](https://godoc.org/github.com/shamsher31/goweblinks)
 [![Build Status](https://travis-ci.org/shamsher31/goweblinks.svg)](https://travis-ci.org/shamsher31/goweblinks)
+[![GitHub release](http://img.shields.io/github/release/shamsher31/goweblinks.svg?style=flat-square)](release)
 [![MIT License](http://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](license)
 
 This will give you list of web links from given website url.
